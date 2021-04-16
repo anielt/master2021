@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  background-color: #CCCCCC;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-button {
+  display: inline-block;
+  background-color: #0F739B;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 2rem;
+  border-radius: 10px;
+  font-size: 2em;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+}
